@@ -1,0 +1,172 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: white; 
+}
+
+a {
+  color: #428bca;
+  text-decoration: none; }
+  a:hover, a:focus {
+    color: #2a6496;
+    text-decoration: underline; }
+  a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; 
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit; }
+  h1 small,
+  h1 .small, h2 small,
+  h2 .small, h3 small,
+  h3 .small, h4 small,
+  h4 .small, h5 small,
+  h5 .small, h6 small,
+  h6 .small,
+  .h1 small,
+  .h1 .small, .h2 small,
+  .h2 .small, .h3 small,
+  .h3 .small, .h4 small,
+  .h4 .small, .h5 small,
+  .h5 .small, .h6 small,
+  .h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: #999999; }
+
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  h1 small,
+  h1 .small,
+  h2 small,
+  h2 .small,
+  h3 small,
+  h3 .small {
+    font-size: 65%; }
+
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  h4 small,
+  h4 .small,
+  h5 small,
+  h5 .small,
+  h6 small,
+  h6 .small {
+    font-size: 75%; }
+
+h1, .h1 {
+  font-size: 36px; }
+
+h2, .h2 {
+  font-size: 30px; }
+
+h3, .h3 {
+  font-size: 24px; }
+
+h4, .h4 {
+  font-size: 18px; }
+
+h5, .h5 {
+  font-size: 14px; }
+
+h6, .h6 {
+  font-size: 12px; }
+
+p {
+  margin: 0 0 10px; }
+
+img {
+  border: 0; }
+
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: gray;
+	height: 50px;
+	width: 800px;
+	text-align: center;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+
+	height: 400px;
+	width: 800px;
+}
+#contentL {
+	float: left;
+	width: 245px;
+	height: 400px;
+}
+
+#information {
+	width: 195px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#links {
+	width: 195px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#contentL_t {
+	width: 245px;
+	height: 200px;
+	background-color: #eeeeee;
+}
+
+#contentL_b {
+	width: 245px;
+	height: 200px;
+	background-color: #eeeeee;
+}
+
+#contentR {
+	width: 555px; 
+	height: 400px; 
+	text-align: center;
+}
+
+
+
+/* footer */
+#footer {
+  background-color: gray;
+  height: 50px;
+  width: 800px;
+  color: white;
+  text-align: center; }
+}
