@@ -201,3 +201,6 @@ h4 {
 	color: #000;
 	margin: 0px;
 }
+.styleIcon {
+	cursor: pointer;
+}
