@@ -111,14 +111,14 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 60%;
 	display: block;
 }
 #sidebar {
-	clear: both;
-	float: left;
+	clear: none;
+	float: right;
 	margin-left: 0;
-	width: 100%;
+	width: 35%;
 	display: block;
 }
 #footer {
@@ -135,7 +135,7 @@ img, object, embed, video {
 @media only screen and (min-width: 769px) {
 .gridContainer {
 	width: 88.2%;
-	max-width: 1232px;
+	max-width: 950px;
 	padding-left: 0.9%;
 	padding-right: 0.9%;
 	margin: auto;
