@@ -278,6 +278,14 @@ img {
 	text-align: center;
 }.photolist {
 	float: left;
+	background-image: url(images/photo_bg.gif);
+	height: 135px;
+	width: 175px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	padding-top: 30px;
 }
 .photolist p {
 	margin: 0px;
